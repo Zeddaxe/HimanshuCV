@@ -1,37 +1,76 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshu Joshi - Technical Content Writer</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
-            background-image: url("1.gif");
-            background-repeat: repeat;
-            background-size: cover;
+            background-color: #f0f0f0;
+            color: #333;
         }
 
         header {
-            background-color: #333;
+            background-color: #0077b5;
             color: #fff;
             padding: 20px;
             text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header img {
+            border-radius: 50%;
         }
 
         section {
-            margin: 50px;
+            padding: 20px;
         }
 
         .container {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
-            color: white;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .content {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        h1, h2 {
+            color: #0077b5;
         }
 
         aside {
-            color: white;
+            background-color: #fff;
             padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        ul {
+            list-style-type: circle;
+            margin-left: 20px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #0077b5;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         footer {
@@ -41,17 +80,11 @@
             padding: 20px;
             margin-top: 50px;
         }
-        h1,h2,h3 {
-            color: #0077b5;
-        }
 
-        h3 {
-            color: white;
-        }
-
-        ul {
-            list-style-type: circle;
-            margin-left: 25px;
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
@@ -59,71 +92,59 @@
 <body>
 
     <header>
-        <img src="pp.jpg" width="100" style="border-radius: 50px">
+        <img src="pp.jpg" width="100" alt="Profile Picture">
         <h1>Himanshu Joshi</h1>
-        <p>Technical Content Writer | Cybersecurity </p>
+        <p>Technical Content Writer | Cybersecurity</p>
     </header>
 
     <section>
-
         <div class="container">
-        <div>
-            <div>
+            <div class="content">
                 <h2>Objective</h2>
-                <p>To leverage my exceptional writing skills, creativity, and industry knowledge to craft engaging and
-                    informative content that captivates audiences, drives organic growth, and meets the unique needs of
-                    the organization and audience.</p>
+                <p>To leverage my exceptional writing skills, creativity, and industry knowledge to craft engaging and informative content that captivates audiences, drives organic growth, and meets the unique needs of the organization and audience.</p>
+
+                <h2>Education</h2>
+                <p><b>Metriculation-2015</b></p>
+                <p>The Asian Academy | Pithoragarh, UK | CBSE</p>
+                <p>CGPA 7.4</p>
+
+                <p><b>Senior Secondary School-2017</b></p>
+                <p>Lakes International School | Nainital, UK | CBSE</p>
+                <p>77%</p>
+
+                <p><b>Digital Marketing Mastery-2022</b></p>
+                <p>Digiperform, Haldwani, UK</p>
+                <p>Certified</p>
+
+                <p><b>Bachelor of Computer Application 2023-25</b></p>
+                <p>Uttranchal University, Dehradun, UK</p>
+                <p>Pursuing</p>
+
+                <h2>Interests</h2>
+                <p>Reading Books</p>
+                <p>Free Style Writing and Journaling</p>
+                <p>Technology and Science</p>
+                <p>Playing Capture-the-Flags</p>
+                <p>Coding and Cybersecurity</p>
+
+                <h2>Languages</h2>
+                <p><b>Hindi -</b> Read, Write, Speak</p>
+                <p><b>English -</b> Read, Write, Speak</p>
+                <p><b>Español - </b>Learning</p>
             </div>
-            <div>
-            <h2>Education</h2>
-            <p><b>Metriculation-2015</b></p>
-            <p>The Asian Academy | Pithoragarh, UK | CBSE</p>
-            <p>CGPA 7.4</p>
-
-            <p><b>Senior Secondary School-2017</b></p>
-            <p>Lakes International School | Nainital, UK | CBSE</p>
-            <p>77%</p>
-           
-            <p><b>Digital Marketing Mastery-2022</b></p>
-            <p>Digiperform, Haldwani, UK</p>
-            <p>Certified</p>
-
-            <p><b>Bachelor of Arts, (English Honours) 2023-25</b></p>
-            <p>Indra Gandhi National Open University, New Delhi</p>
-            <p>Pursuing</p>
-                
-            <h2>Interests</h2>
-            <p>Reading Books</p>
-            <p>Free Style Writing and Journaling</p>
-            <p>Technology and Science</p>
-            <p>Playing Capture-the-Flags</p>
-            <p>Coding and Cybersecurity</p>
-
-            <h2>Languages</h2>
-            <p><b>Hindi -</b> Read, Write, Speak</p>
-            <p><b>English -</b> Read, Write, Speak</p>
-            <p><b>Espanol - </b>Learning</p>
-            </div>
-        </div>
             <aside>
                 <h2>Experience</h2>
                 <h3><b>RapidsoftTechnologies -</b> Content Writer (Feb 2023 - Present)</h3>
                 <ul>
-                    <li>Create informative blog posts and articles on various topics regarding ERP software automation.
-                    </li>
-                    <li>Develop engaging whitepapers and case studies highlighting real-world success stories of
-                        companies.</li>
-                    <li>Crafting compelling product descriptions, feature guides, landing pages, and other website
-                        content.</li>
-                    <li>Collaborate with development, designing, and marketing teams to generate SEO-optimized content.
-                    </li>
-                    <li>Maintain consistency in tone and messaging across all content to reinforce the company's brand
-                        identity.</li>
-                    <li>Analyze the performance of published content using analytical tools to make data-driven
-                        improvements.</li>
-                    <li>Conduct thorough research constantly to ensure accuracy and credibility in all written
-                        materials.</li>
+                    <li>Create informative blog posts and articles on various topics regarding ERP software automation.</li>
+                    <li>Develop engaging whitepapers and case studies highlighting real-world success stories of companies.</li>
+                    <li>Crafting compelling product descriptions, feature guides, landing pages, and other website content.</li>
+                    <li>Collaborate with development, designing, and marketing teams to generate SEO-optimized content.</li>
+                    <li>Maintain consistency in tone and messaging across all content to reinforce the company's brand identity.</li>
+                    <li>Analyze the performance of published content using analytical tools to make data-driven improvements.</li>
+                    <li>Conduct thorough research constantly to ensure accuracy and credibility in all written materials.</li>
                 </ul>
+
                 <h2>Skills</h2>
                 <ul>
                     <li>Keywords Research</li>
@@ -139,13 +160,15 @@
                     <li>AI Utilization and Prompting</li>
                     <li>Technical IT Skills (Hardware and Software)</li>
                 </ul>
+
                 <h2>Contact</h2>
-                <li><b>Email:</b>himanshujoshi.pro@gmail.com</li>
-                <li><b>Linkedin:</b>https://www.linkedin.com/in/mrhimanshu1337/</li>
-                <li><b>Github:</b>https://zeddaxe.github.io/HimanshuCV/</li>
+                <ul>
+                    <li><b>Email:</b> <a href="mailto:himanshujoshi.pro@gmail.com">himanshujoshi.pro@gmail.com</a></li>
+                    <li><b>LinkedIn:</b> <a href="https://www.linkedin.com/in/mrhimanshu1337/" target="_blank">https://www.linkedin.com/in/mrhimanshu1337/</a></li>
+                    <li><b>GitHub:</b> <a href="https://github.com/Zeddaxe/Who-is-Himanshu-" target="_blank">https://github.com/Zeddaxe/Who-is-Himanshu-</a></li>
+                </ul>
             </aside>
         </div>
-            
     </section>
 
     <footer>
@@ -153,4 +176,5 @@
     </footer>
 
 </body>
+
 </html>
